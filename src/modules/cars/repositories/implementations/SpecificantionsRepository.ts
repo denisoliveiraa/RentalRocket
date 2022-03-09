@@ -1,6 +1,6 @@
 import e from "express";
-import { Specification } from "../model/Specificantion";
-import { ISpecifiantionRepository, ICreateSpecifiantionDTO } from "./ISpecificationsRepository";
+import { Specification } from "../../model/Specificantion";
+import { ISpecifiantionRepository, ICreateSpecifiantionDTO } from "../ISpecificationsRepository";
 
 
 class SpecificationsRepository implements ISpecifiantionRepository {

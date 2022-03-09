@@ -2,6 +2,8 @@ import {CreateCategoryUseCase} from "./CreateCategoryUseCase"
 import{Response,Request} from 'express'
 
 class CreateCategoryController{
+    static handle: any;
+   
 
     constructor(private createCategoryUseCase: CreateCategoryUseCase){}
 
@@ -14,4 +16,4 @@ class CreateCategoryController{
     }
 }
 
-export {CreateCategoryController}
+export { CreateCategoryController }
